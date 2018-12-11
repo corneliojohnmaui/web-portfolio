@@ -1,0 +1,210 @@
+body{
+	background: url("../images/bg.jpg"); 
+	background-size: cover;
+/*	background-color: blue;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+/*	width: 100%;
+	height: 30%;*/
+}
+h1 {
+	font-family: sans-serif;
+}
+/*@media screen and (max-width: 600px){
+	#mypic{
+		width: 100%;
+	}
+}*/
+#logo{
+	float: right;
+	color: white;
+	background-color: #333;
+
+
+}
+.navigation  {
+	text-align: center;
+	display: block;
+	background-color: #333;
+}
+.navigation ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  height: 10%;
+/*  margin-right: 15%;*/
+
+}
+.navigation li {
+	float: left;
+	padding-left: 5%;
+
+}
+.navigation li a{
+/*	display: inline;
+
+	background-color: #dddddd;
+	padding: 14px 16px;
+ 	text-decoration: none;*/
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 20px;
+	text-decoration: none;
+
+
+}	
+
+.navigation li a:hover {
+  background-color: #111;
+}
+	
+}
+
+.myprofile {
+	margin-top: 10%;
+}
+
+#mypic {
+	border-radius: 50%;
+	width: 20%;
+	height: 50%;
+	float: left;
+	margin-right: 2%;
+
+	margin-left: 20%;
+ /* rotate */
+ -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+
+}
+ /* rotate on hover */
+#mypic:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#expiPic {
+	border-radius: 30%;
+	width: 20%;
+	height: 50%;
+	/*float: right;*/
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+#expiTools{
+/*	border-top-style: solid;
+	border-top:solid 5px;*/
+	color: white;
+	padding-right: 10%;
+	padding-left: 5%;
+	width: 20%;
+	float: right;
+
+}
+
+
+#myexpiContent {
+	border-top-style: solid;
+	border-top:solid 5px;
+	background-color: white;
+	width: 50%;
+	margin-left: 10%;
+	float: left;
+	border-radius: 10%;
+
+	
+}
+/*#myexpiContentP{
+	border-top-style: solid;
+	border-top:solid 5px;
+	background-color: gray;
+	width: 40%;
+	margin-left: 15%;
+	float: left;
+	margin-top: 5%;
+}*/
+.ss{
+	background-color: #101010;
+	width: 100%;
+/*	height: 80%;*/
+	opacity: 0.6;
+	margin-top: 7%;
+	bottom: 0;
+	/*	*/
+}
+
+.workExpBorder{
+	border-left: solid 2px;
+}
+
+.myexpiTb {
+	width: 100%;
+}
+
+#myexpectation{
+	background-color: white;
+}
+
+
+footer{
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	bottom-top:solid 2px;
+	background-color: #333;
+	text-align: center;
+	color: white;
+  /*  background-color: gainsboro;*/
+}
+nav{
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+div{
+	height: 100%;
+	margin-top: 10%;
+
+}
+
+li{
+	list-style: none;
+}
+th{
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+
+ul{
+	text-align: center;
+	padding-left: 0px;
+}
+hr{
+	border-style: none;
+}
+
+#agent{
+	border-radius: 50%;
+	width: 25%;
+	height:25%;
+
+	float: left;
+}
+
+.agentP {
+	border-radius: 50%;
+	width: 25%;
+	height:25%;
+	padding-left: 2%;
+	display: inline;
+}
