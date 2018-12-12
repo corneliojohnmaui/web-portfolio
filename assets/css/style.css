@@ -97,10 +97,10 @@ h1 {
 /*	border-top-style: solid;
 	border-top:solid 5px;*/
 	color: white;
-	padding-right: 10%;
-	padding-left: 5%;
-	width: 20%;
-	float: right;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+/*	float: right;*/
 
 }
 
@@ -108,13 +108,15 @@ h1 {
 #myexpiContent {
 	border-top-style: solid;
 	border-top:solid 5px;
-	background-color: white;
-	width: 50%;
-	margin-left: 10%;
-	float: left;
-	border-radius: 10%;
+	background-color: #f8f8f8;
+	width: 40%;
+	margin-left: 5%;
+/*	height: 0%;*/
+/*	float: left;*/
+	border-radius: 5%;
 	position: relative;
-	z-index: 2;
+	z-index: 0;
+	display: inline-block;
 
 	
 }
@@ -125,13 +127,14 @@ h1 {
 	width: 40%;
 	margin-left: 15%;
 	float: left;
-	margin-top: 5%;
+	margin-top: top: 5%;
 }*/
 .ss{
 	background-color: #101010;
+	background: rgba(255,255,255,0.75)
 	width: 100%;
 /*	height: 80%;*/
-	opacity: 0.6;
+/*	opacity: 0.6;*/
 	margin-top: 7%;
 	bottom: 0;
 	/*	*/
@@ -146,11 +149,12 @@ h1 {
 }
 
 #myexpectation{
-	background-color: white;
+	/*background-color: white;*/
 }
 
 
 footer{
+	position: relative;
 	bottom: 0;
 	/*position: absolute;*/
 	width: 100%;
@@ -170,10 +174,19 @@ nav{
 	z-index: 1;
 
 }
+div.myProfileDiv{
+	height: 100%;
+	margin-top: 10%;
+
+}
 div{
 	height: 100%;
 	margin-top: 10%;
 
+}
+div.myexpectation{
+	height: 100%;
+	margin-top: 10%;
 }
 
 li{
@@ -199,7 +212,6 @@ hr{
 	width: 25%;
 	height:25%;
 
-	float: left;
 }
 
 .agentP {
@@ -207,15 +219,31 @@ hr{
 	width: 25%;
 	height:25%;
 	padding-left: 2%;
-	display: inline;
+	
 }
 
+.projTitle{
+	width: 45%;
+}
+
+.agentTxt{
+	margin: 0px;
+}
 #fullstack{
+	border-radius: 2%;
 	width: 50%;
 	position: center;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
 
 }
 
@@ -241,13 +269,30 @@ h2.myName {
 	color: white;
 	font-weight: 200;
 }
+h3.webDev{
+	font-family: monospace;
+	font-size: 30px;
+/*	background-color: black;*/
+	color: white;
+	font-weight: 100;
+}
 mark.myN {
+	background-color: black;
+	color: white;
+}
+mark.myP{
 	background-color: black;
 	color: white;
 }
 section.myProfile{
 	margin-right: 10%;
-	text-align: center;
+	text-align: left;
+}
+
+h2.myexperience{
+	margin-top: 2%;
+	color: #FFF;
+	font-family: monospace;
 }
 /* rotate */
 /*h3.webDev{
@@ -261,3 +306,150 @@ section.myProfile{
           transform: rotate(360deg);
 
 }*/
+.fullstackDiv{
+	margin-top: 0%;
+  height: 80%;
+	position: relative;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+	/*position: relative;*/
+
+}
+.fullstackTextD{
+	margin-top: 5%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ftext{
+	  background-color: #4CAF50;
+  color: white;
+  font-size: 25px;
+  padding: 30px 50px;
+}
+
+.fullstackDiv:hover #fullstack {
+  opacity: 0.3;
+}
+
+.fullstackDiv:hover .fullstackTextD {
+  opacity: 1;
+}
+
+.contactme {
+	height: 20%;
+	bottom: 0;
+	background-color: #333333;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+/*.myskills{
+	border-radius: 5%;
+	border-style: double;
+	width: 15%;
+	height:15%;
+	padding-left: 2%;
+}*/
+
+.container {
+  margin-top: 2%;
+  margin-left: 45%;	
+  margin-right: 0px;
+  width: 50%;
+  background-color: #ddd;
+  height: 5%;
+
+
+}
+.skills {
+	margin-top: 0px;
+  text-align: right;
+  padding: 3px;
+  color: white;
+  height: 20px;
+}
+.html {width: 60%; height: 24px; background-color: #808080;}
+.css {width: 60%; height: 24px; background-color: #808080;}
+.js {width: 55%; height: 24px; background-color: #FF5722;}
+.php {width: 75%; height: 24px; background-color: #4CAF50;}
+.bs {width: 65%; height: 24px; background-color: #2196F3;}
+.mysql {width: 65%; height: 24px; background-color: #2196F3;}
+
+
+
+.mySkills{
+	display: block;
+	margin-top: %;
+	color: white;
+	float: left;
+	margin-left:2%;
+}
+.labelSkills{
+	float: left;
+	display: block;
+	margin-top: 3%;
+	margin-left: 2%;
+	color: #FFF;
+	height: 30%;
+
+}
+.labeltxt{
+	margin-top: 5%;
+
+
+}
+.myskillsDivRight{
+/*	width: 40%;
+	float: right;
+	margin-right: 10%;*/
+		border-top-style: solid;
+	border-top:solid 5px;
+	
+	width: 40%;
+	margin-left: 5%;
+/*	height: 0%;*/
+/*	float: left;*/
+	border-radius: 5%;
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+
+}
+.myskillsDivLeft{
+/*	width: 45%;
+		float: left;
+	margin-left: 50%;*/
+		border-top-style: solid;
+	border-top:solid 5px;
+	/*background-color: #f8f8f8;*/
+	width: 40%;
+	margin-left: 5%;
+/*	height: 0%;*/
+/*	float: left;*/
+	border-radius: 5%;
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+}
+.socialIcon{
+/*	border-radius: 50%;*/
+	width: 15%;
+	height: 20%;
+	float: left;
+	margin-right: 2%;
+
+	margin-left: 20%;
+}
+
+i.scIcon{
+	font-size: 50px;
+	color: white;
+}
