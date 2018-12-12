@@ -78,16 +78,10 @@ h1 {
 	margin-right: 2%;
 
 	margin-left: 20%;
- /* rotate */
- -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+ 
 
 }
- /* rotate on hover */
-#mypic:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
+
 
 #expiPic {
 	border-radius: 30%;
@@ -226,13 +220,44 @@ hr{
 }
 
 .myexpecContent{
-	width: 40%;
+	width: 70%;
 	text-align: center;
 	justify-content: center;
 	margin-right: auto;
 	margin-left: auto; 
-	font-family: monospace;
-	font-size: 20px;
+	font-family: cursive;
+	font-size: 25px;
 
 
 }
+h2.hMyExpec {
+	font-family: monospace;
+	font-size: 25px;
+}
+h2.myName {
+	font-family: monospace;
+	font-size: 35px;
+/*	background-color: black;*/
+	color: white;
+	font-weight: 200;
+}
+mark.myN {
+	background-color: black;
+	color: white;
+}
+section.myProfile{
+	margin-right: 10%;
+	text-align: center;
+}
+/* rotate */
+/*h3.webDev{
+
+ -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}*/
+ /* rotate on hover */
+/*.webDev:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+
+}*/
