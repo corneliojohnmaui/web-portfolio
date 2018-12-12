@@ -119,6 +119,8 @@ h1 {
 	margin-left: 10%;
 	float: left;
 	border-radius: 10%;
+	position: relative;
+	z-index: 2;
 
 	
 }
@@ -156,18 +158,23 @@ h1 {
 
 footer{
 	bottom: 0;
-	position: fixed;
+	/*position: absolute;*/
 	width: 100%;
 	bottom-top:solid 2px;
 	background-color: #333;
 	text-align: center;
 	color: white;
+	height: 5%;
   /*  background-color: gainsboro;*/
 }
 nav{
 	top: 0;
 	position: fixed;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+
 }
 div{
 	height: 100%;
@@ -207,4 +214,25 @@ hr{
 	height:25%;
 	padding-left: 2%;
 	display: inline;
+}
+
+#fullstack{
+	width: 50%;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.myexpecContent{
+	width: 30%;
+	text-align: center;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto; 
+	font-family: monospace;
+	font-size: 20px;
+	
+
 }
